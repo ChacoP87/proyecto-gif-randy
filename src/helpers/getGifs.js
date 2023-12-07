@@ -2,7 +2,7 @@
 export const getGifs = async (category) => {// Construimos la URL para la API de Giphy con la categoría y un límite de 10
     //imágenes
     const url =
-        `https://api.giphy.com/v1/gifs/search?api_key=0aE6KbTw006aDgCwEnVXzV0t5fxOlvil&q=${category}&limit=10`;
+        `https://api.giphy.com/v1/gifs/search?api_key=finGuM6gkHWZMuE77IOwaE5u0tkGobeh&q=${category}&limit=10`;
     // Hacemos una petición a la API de Giphy
     const resp = await fetch(url);
 
