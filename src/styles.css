@@ -1,0 +1,72 @@
+/* Establece la fuente predeterminada para todo el documento */
+* {
+    font-family: Helvetica, Arial, sans-serif; /* Tipo de letra */
+    background-color: rgb(234, 234, 234); /* Color de fondo gris claro */ 
+}
+
+/* Añade espacio de relleno alrededor del cuerpo del documento */
+body {
+    padding: 60px; /* Espacio de relleno de 60 píxeles */
+}
+
+/* Estiliza los campos de entrada */
+input {
+    background-color: white; /* Fondo de color blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid rgb(97, 32, 158); /*  Borde sólido de color púrpura o morado */
+    color: black; /* Texto de color negro */
+    font-size: 1.2rem; /* Tamaño de letra de 1.2rem */
+    outline: none; /* Sin contorno exterior */
+    padding: 10px 15px; /* Relleno interno de 10px arriba y abajo, 15px a los lados */
+    width: 100%; /* Ancho del 100% */
+}
+
+/* Establece el tamaño de fuente para los encabezados h2 */
+h2 {
+    font-size: 1.5rem; /* Tamaño de letra de 1.5rem */
+}
+
+/* Establece el tamaño de fuente y el margen inferior para los encabezados h3 */
+h3 {
+    font-size: 3rem; /* Tamaño de letra de 3rem */
+    margin-bottom: 5px; /* Agrega un margen inferior de 5px */
+}
+
+/* Configuración del contenedor de tarjetas */
+.card-grid {
+    display: flex; /* Contenido flexible */
+    flex-direction: row; /* Elementos en fila */
+    flex-wrap: wrap; /* Se mueve a la siguiente línea si no hay suficiente espacio */
+    justify-content: center; /* Centrar el contenido */
+}
+
+/* Estiliza las tarjetas individuales */
+.card {
+    align-content: center; /* Contenido centrado */
+    align-items: center; /* Centrar */
+    background-color: white; /* Fondo de color blanco */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03); /* Sombra de color negro ligera */
+    display: flex; /* Contenido flexible */
+    flex-direction: column; /* Columnas */
+    height: 0%; /* Altura de 0% */
+    justify-content: center; /* Centrar el contenido */
+    margin-bottom: 20px; /* Margen inferior de 20 píxeles*/
+    margin-right: 20px; /* Margen derecho de 20 píxeles */
+    overflow: hidden; /* Hacemos que todo el contenido que sobresale de su contenedor se oculte */
+}
+
+/* Estiliza el párrafo dentro de las tarjetas */
+.card p {
+    background-color: white; /* Fondo de color blanco */
+    flex: 1;
+    font-size: 1.5rem; /* Tamaño de letra de 1.5rem*/
+    margin-top: 5px; /* Margen superior de 5 píxeles */
+    padding: 5px 20px 0px 20px; /* Relleno interno de 5px arriba, 20px a los lados*/
+    text-align: center; /* Texto centrado */
+}
+
+/* Establece el ancho de la imagen dentro de las tarjetas al 100% */
+.card img {
+    width: 100%;
+}
